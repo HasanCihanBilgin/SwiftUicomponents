@@ -11,6 +11,9 @@
 		D6E60DE42C8673D200975811 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DE32C8673D200975811 /* ContentView.swift */; };
 		D6E60DE62C8673D400975811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E60DE52C8673D400975811 /* Assets.xcassets */; };
 		D6E60DE92C8673D400975811 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E60DE82C8673D400975811 /* Preview Assets.xcassets */; };
+		D6E60E0C2C867C6B00975811 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60E0B2C867C6B00975811 /* PasswordTextField.swift */; };
+		D6E60E0E2C867C7C00975811 /* PasswordInputsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60E0D2C867C7C00975811 /* PasswordInputsView.swift */; };
+		D6E60E102C867C9700975811 /* PasswordInputsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60E0F2C867C9700975811 /* PasswordInputsApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		D6E60DE32C8673D200975811 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6E60DE52C8673D400975811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E60DE82C8673D400975811 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6E60E0B2C867C6B00975811 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		D6E60E0D2C867C7C00975811 /* PasswordInputsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputsView.swift; sourceTree = "<group>"; };
+		D6E60E0F2C867C9700975811 /* PasswordInputsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		D6E60DD52C8673D200975811 = {
 			isa = PBXGroup;
 			children = (
+				D6E60E072C8678BE00975811 /* PasswordInputs */,
 				D6E60DE02C8673D200975811 /* SwiftUicomponents */,
 				D6E60DDF2C8673D200975811 /* Products */,
 			);
@@ -65,6 +72,32 @@
 				D6E60DE82C8673D400975811 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6E60E072C8678BE00975811 /* PasswordInputs */ = {
+			isa = PBXGroup;
+			children = (
+				D6E60E0A2C8678FF00975811 /* PasswordInputs */,
+				D6E60E082C8678C600975811 /* PasswordInputsView */,
+			);
+			path = PasswordInputs;
+			sourceTree = "<group>";
+		};
+		D6E60E082C8678C600975811 /* PasswordInputsView */ = {
+			isa = PBXGroup;
+			children = (
+				D6E60E0B2C867C6B00975811 /* PasswordTextField.swift */,
+				D6E60E0D2C867C7C00975811 /* PasswordInputsView.swift */,
+			);
+			path = PasswordInputsView;
+			sourceTree = "<group>";
+		};
+		D6E60E0A2C8678FF00975811 /* PasswordInputs */ = {
+			isa = PBXGroup;
+			children = (
+				D6E60E0F2C867C9700975811 /* PasswordInputsApp.swift */,
+			);
+			path = PasswordInputs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E60E0E2C867C7C00975811 /* PasswordInputsView.swift in Sources */,
 				D6E60DE42C8673D200975811 /* ContentView.swift in Sources */,
+				D6E60E102C867C9700975811 /* PasswordInputsApp.swift in Sources */,
 				D6E60DE22C8673D200975811 /* SwiftUicomponentsApp.swift in Sources */,
+				D6E60E0C2C867C6B00975811 /* PasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
