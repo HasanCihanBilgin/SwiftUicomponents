@@ -11,6 +11,11 @@
 		D6E60DE42C8673D200975811 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DE32C8673D200975811 /* ContentView.swift */; };
 		D6E60DE62C8673D400975811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E60DE52C8673D400975811 /* Assets.xcassets */; };
 		D6E60DE92C8673D400975811 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E60DE82C8673D400975811 /* Preview Assets.xcassets */; };
+		D6E60DFE2C86763200975811 /* LightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DFD2C86763200975811 /* LightStyle.swift */; };
+		D6E60E002C86765000975811 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DFF2C86765000975811 /* UIColor.swift */; };
+		D6E60E022C86767F00975811 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60E012C86767F00975811 /* CustomTextFieldStyle.swift */; };
+		D6E60E042C8676A300975811 /* ikncigorevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60E032C8676A300975811 /* ikncigorevApp.swift */; };
+		D6E60E062C8676BB00975811 /* InputsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60E052C8676BB00975811 /* InputsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		D6E60DE32C8673D200975811 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6E60DE52C8673D400975811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E60DE82C8673D400975811 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6E60DFD2C86763200975811 /* LightStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStyle.swift; sourceTree = "<group>"; };
+		D6E60DFF2C86765000975811 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D6E60E012C86767F00975811 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		D6E60E032C8676A300975811 /* ikncigorevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikncigorevApp.swift; sourceTree = "<group>"; };
+		D6E60E052C8676BB00975811 /* InputsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +45,7 @@
 		D6E60DD52C8673D200975811 = {
 			isa = PBXGroup;
 			children = (
+				D6E60DFB2C8675ED00975811 /* ikncigorev */,
 				D6E60DE02C8673D200975811 /* SwiftUicomponents */,
 				D6E60DDF2C8673D200975811 /* Products */,
 			);
@@ -65,6 +76,26 @@
 				D6E60DE82C8673D400975811 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6E60DFB2C8675ED00975811 /* ikncigorev */ = {
+			isa = PBXGroup;
+			children = (
+				D6E60DFC2C86761B00975811 /* UIColor+Extensions.swift */,
+				D6E60E012C86767F00975811 /* CustomTextFieldStyle.swift */,
+				D6E60E032C8676A300975811 /* ikncigorevApp.swift */,
+				D6E60E052C8676BB00975811 /* InputsView.swift */,
+			);
+			path = ikncigorev;
+			sourceTree = "<group>";
+		};
+		D6E60DFC2C86761B00975811 /* UIColor+Extensions.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D6E60DFD2C86763200975811 /* LightStyle.swift */,
+				D6E60DFF2C86765000975811 /* UIColor.swift */,
+			);
+			path = "UIColor+Extensions.swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E60DE42C8673D200975811 /* ContentView.swift in Sources */,
+				D6E60E002C86765000975811 /* UIColor.swift in Sources */,
+				D6E60E062C8676BB00975811 /* InputsView.swift in Sources */,
+				D6E60E042C8676A300975811 /* ikncigorevApp.swift in Sources */,
+				D6E60DFE2C86763200975811 /* LightStyle.swift in Sources */,
 				D6E60DE22C8673D200975811 /* SwiftUicomponentsApp.swift in Sources */,
+				D6E60E022C86767F00975811 /* CustomTextFieldStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

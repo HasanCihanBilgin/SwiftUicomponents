@@ -5,7 +5,7 @@
 //  Created by Hasan Cihan Bilgin on 3.09.2024.
 //
 
-import SwiftUI
+/*import SwiftUI
 
 @main
 struct SwiftUicomponentsApp: App {
@@ -15,3 +15,4 @@ struct SwiftUicomponentsApp: App {
         }
     }
 }
+*/
