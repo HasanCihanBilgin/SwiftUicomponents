@@ -21,8 +21,6 @@
 		D61A81912C8686600024EDC0 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A81902C8686600024EDC0 /* TextButton.swift */; };
 		D61A81932C86866C0024EDC0 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A81922C86866C0024EDC0 /* ButtonType.swift */; };
 		D61A81952C86867A0024EDC0 /* ButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61A81942C86867A0024EDC0 /* ButtonSize.swift */; };
-		D6E60DE22C8673D200975811 /* SwiftUicomponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DE12C8673D200975811 /* SwiftUicomponentsApp.swift */; };
-		D6E60DE42C8673D200975811 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DE32C8673D200975811 /* ContentView.swift */; };
 		D6E60DE62C8673D400975811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E60DE52C8673D400975811 /* Assets.xcassets */; };
 		D6E60DE92C8673D400975811 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E60DE82C8673D400975811 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -43,8 +41,6 @@
 		D61A81922C86866C0024EDC0 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
 		D61A81942C86867A0024EDC0 /* ButtonSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSize.swift; sourceTree = "<group>"; };
 		D6E60DDE2C8673D200975811 /* SwiftUicomponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUicomponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6E60DE12C8673D200975811 /* SwiftUicomponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUicomponentsApp.swift; sourceTree = "<group>"; };
-		D6E60DE32C8673D200975811 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6E60DE52C8673D400975811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E60DE82C8673D400975811 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,8 +94,6 @@
 		D6E60DE02C8673D200975811 /* SwiftUicomponents */ = {
 			isa = PBXGroup;
 			children = (
-				D6E60DE12C8673D200975811 /* SwiftUicomponentsApp.swift */,
-				D6E60DE32C8673D200975811 /* ContentView.swift */,
 				D6E60DE52C8673D400975811 /* Assets.xcassets */,
 				D6E60DE72C8673D400975811 /* Preview Content */,
 			);
@@ -221,9 +215,7 @@
 				D61A818B2C86863B0024EDC0 /* BaseButton.swift in Sources */,
 				D61A818F2C8686530024EDC0 /* IconButton.swift in Sources */,
 				D61A81892C8686310024EDC0 /* TertiaryButton.swift in Sources */,
-				D6E60DE42C8673D200975811 /* ContentView.swift in Sources */,
 				D61A81932C86866C0024EDC0 /* ButtonType.swift in Sources */,
-				D6E60DE22C8673D200975811 /* SwiftUicomponentsApp.swift in Sources */,
 				D61A81852C86860D0024EDC0 /* PrimaryButton.swift in Sources */,
 				D61A81792C8685780024EDC0 /* ilkgorevApp.swift in Sources */,
 				D61A818D2C8686470024EDC0 /* ChipButton.swift in Sources */,
