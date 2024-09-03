@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D6E60DE22C8673D200975811 /* SwiftUicomponentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DE12C8673D200975811 /* SwiftUicomponentsApp.swift */; };
-		D6E60DE42C8673D200975811 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DE32C8673D200975811 /* ContentView.swift */; };
 		D6E60DE62C8673D400975811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E60DE52C8673D400975811 /* Assets.xcassets */; };
 		D6E60DE92C8673D400975811 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E60DE82C8673D400975811 /* Preview Assets.xcassets */; };
 		D6E60DF82C86752800975811 /* CheckboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E60DF72C86752800975811 /* CheckboxApp.swift */; };
@@ -17,8 +15,6 @@
 
 /* Begin PBXFileReference section */
 		D6E60DDE2C8673D200975811 /* SwiftUicomponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUicomponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6E60DE12C8673D200975811 /* SwiftUicomponentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUicomponentsApp.swift; sourceTree = "<group>"; };
-		D6E60DE32C8673D200975811 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D6E60DE52C8673D400975811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6E60DE82C8673D400975811 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6E60DF72C86752800975811 /* CheckboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxApp.swift; sourceTree = "<group>"; };
@@ -56,8 +52,6 @@
 			isa = PBXGroup;
 			children = (
 				D6E60DF62C86751A00975811 /* Checkbox */,
-				D6E60DE12C8673D200975811 /* SwiftUicomponentsApp.swift */,
-				D6E60DE32C8673D200975811 /* ContentView.swift */,
 				D6E60DE52C8673D400975811 /* Assets.xcassets */,
 				D6E60DE72C8673D400975811 /* Preview Content */,
 			);
@@ -151,9 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6E60DE42C8673D200975811 /* ContentView.swift in Sources */,
 				D6E60DF82C86752800975811 /* CheckboxApp.swift in Sources */,
-				D6E60DE22C8673D200975811 /* SwiftUicomponentsApp.swift in Sources */,
 				D6E60DFA2C86753700975811 /* CheckboxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
